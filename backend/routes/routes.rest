@@ -1,0 +1,14 @@
+GET http://localhost:5000/api/items
+
+###
+
+POST http://localhost:5000/api/items
+Content-Type: application/json
+
+{
+    "name": "Test"
+}
+
+###
+
+DELETE http://localhost:5000/api/items/5fd10a40b603ad39006f4693
